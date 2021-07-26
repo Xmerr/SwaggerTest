@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vscode/
+.idea/
+jsconfig.json
+
+package-lock.json
+yarn.lock
+
+*.log
+*.zip
+
+# Keeps any test files out since the team does not want them for the frontend.
+# But allows anyone locally to write them if it helps them.
+__tests__
+*.test.*
+*.spec.*
