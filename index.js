@@ -15,7 +15,7 @@ app.use(koaSwagger(config))
     .use(router.routes());
 
 const server = app.listen(3400, () => {
-    console.log(`API running on ${port}`); // eslint-disable-line no-console
+    console.log(`API running on 3400`); // eslint-disable-line no-console
 });
 
 module.exports = server;
